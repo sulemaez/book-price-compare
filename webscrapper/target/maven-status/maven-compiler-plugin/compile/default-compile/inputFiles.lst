@@ -1,0 +1,14 @@
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/ScrapFromBookDepository.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/Main.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/models/Book.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/ScrapFromWordery.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/WebScraping.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/BookService.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/models/Publisher.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/models/BookPrice.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/ScrapFromTheBookPeople.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/AppConfig.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/ListBooks.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/ScrapFromWaterstones.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/services/ScrapFromBlackwell.java
+/home/sulemaez/Desktop/booksite/webscrapper/src/main/java/com/khaled/bookscomp/dao/BookDAO.java

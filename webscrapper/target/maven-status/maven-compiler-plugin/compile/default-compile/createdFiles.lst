@@ -1,0 +1,14 @@
+com/khaled/bookscomp/models/Book.class
+com/khaled/bookscomp/dao/BookDAO.class
+com/khaled/bookscomp/services/ScrapFromBookDepository.class
+com/khaled/bookscomp/AppConfig.class
+com/khaled/bookscomp/services/ScrapFromTheBookPeople.class
+com/khaled/bookscomp/models/Publisher.class
+com/khaled/bookscomp/Main.class
+com/khaled/bookscomp/ListBooks.class
+com/khaled/bookscomp/services/BookService.class
+com/khaled/bookscomp/services/WebScraping.class
+com/khaled/bookscomp/services/ScrapFromBlackwell.class
+com/khaled/bookscomp/services/ScrapFromWordery.class
+com/khaled/bookscomp/models/BookPrice.class
+com/khaled/bookscomp/services/ScrapFromWaterstones.class

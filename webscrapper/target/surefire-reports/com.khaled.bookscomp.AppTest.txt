@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.khaled.bookscomp.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.582 s - in com.khaled.bookscomp.AppTest

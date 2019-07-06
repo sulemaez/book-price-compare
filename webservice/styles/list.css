@@ -1,0 +1,10 @@
+.list-image img{
+   height: 200px;
+ }
+
+
+ .result-item{
+ 	border-radius: 30px;
+ 	background-color: #F1F1F1;
+ 	padding: 20px;
+ }

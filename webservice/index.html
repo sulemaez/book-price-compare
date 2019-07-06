@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <title>Book Price Compare</title>
+		 <!--bootstrap css cdn-->
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  <!--qunit css cdn-->
+	  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.8.0.css">
+	</head>
+	<body>
+	    <div id="app">
+	        <!--Main navigation-->
+	        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand"><router-link to="/home">BookCompare</router-link></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				     <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link"><router-link to="/home">Home</router-link></a>
+				      </li>
+				    </ul>
+				  </div>
+          </nav>
+
+	        <!-- Component matched by the route will render here -->
+	        <router-view></router-view>
+       </div>
+      <!--jquery cdn--> 
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<!--qunit cdn-->
+			<script src="https://code.jquery.com/qunit/qunit-2.8.0.js"></script>
+			 <!--poper js  cdn--> 
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<!--bootstrap js cdn-->
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		  <!--axios cdn-->    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+		    <!-- Link to JavaScript for Vue Library -->
+		    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+            <!-- Link to JavaScript for Vue Router Library -->
+		    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>	
+				<!--create event bus for communication-->
+            <script>
+            	const bus = new Vue();
+            </script>
+				<!--Components-->		
+		    <script src="home.js"></script>
+		    <script src="list.js"></script>
+		    <script src="display.js"></script>
+		    <script src="index.js"></script>	
+	</body>	
+</html>
