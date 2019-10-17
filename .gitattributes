@@ -30,7 +30,7 @@
 *.tsv      text
 *.txt      text
 *.sql      text
-
+*.sql linguist-vendored=true
 # Graphics
 *.png      binary
 *.jpg      binary
